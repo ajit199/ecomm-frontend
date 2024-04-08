@@ -1,0 +1,92 @@
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #f4f4f4;
+  /* background-color: ; */
+  border-radius: 10px;
+}
+
+.login-form h2,
+.login-form h3,
+.login-form p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input:focus {
+  outline: none;
+  background: none;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: rgb(40, 39, 39);
+}
+
+.register-page-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.register-page-link a {
+  text-decoration: none;
+  color: black;
+}
+
+#show-hide-password {
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#show-hide-password > input {
+  border: none;
+  /* width: 85%; */
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}

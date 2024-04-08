@@ -1,0 +1,64 @@
+.register-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.register-form {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #f4f4f4;
+  /* background-color: ; */
+  border-radius: 10px;
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.create-account-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.create-account-btn:hover {
+  background-color: rgb(40, 39, 39);
+}
+
+.login-page-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-page-link a {
+  text-decoration: none;
+  color: black;
+}
